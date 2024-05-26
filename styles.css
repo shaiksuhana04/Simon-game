@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  background:url("./images/game\ background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  margin-top:20px;
+  color: #f8f428;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+
+.game-over {
+  background-image: url("./images/simon\ background.jpg");
+  background-size: cover;
+}
+.red {
+  background-color: rgb(204, 45, 45);
+}
+
+.green {
+  background-color: rgb(30, 190, 30);
+}
+
+.blue {
+  background-color: rgb(55, 55, 235);
+}
+
+.yellow {
+  background-color: rgb(204, 204, 54);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.startbtn{
+  margin-top:20px;
+  font-weight: 100;
+  font-family: 'Press Start 2P',cursive;
+  font-size: px;
+  background:rgb(246, 239, 239);
+  border-radius: 50%;
+  padding:1%;
+  color:rgb(13, 13, 9);
+}
+.startbtn:hover{
+  background:linear-gradient(rgb(244, 65, 208) 20%,rgb(141, 31, 214) 100%);
+  transition: 0.5s;
+}
